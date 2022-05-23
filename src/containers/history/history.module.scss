@@ -1,0 +1,11 @@
+.main {
+	min-width: 1000px;
+	margin-left: 20px;
+	margin-right: 20px;
+	justify-content: center;
+	margin-top: 5%;
+	@media (min-width: 1400px) {
+		margin-left: 15%;
+		margin-right: 15%;
+	}
+}

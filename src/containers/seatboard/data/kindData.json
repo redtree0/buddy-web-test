@@ -1,0 +1,18 @@
+[
+	{
+		"value": "time",
+		"label": "1회권"
+	},
+	{
+		"value": "char",
+		"label": "충전권"
+	},
+	{
+		"value": "free",
+		"label": "기간권(자유석)"
+	},
+	{
+		"value": "day",
+		"label": "기간권(지정석)"
+	}
+]

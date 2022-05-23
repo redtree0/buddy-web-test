@@ -1,0 +1,22 @@
+.btn_layout {
+  height: 60px;
+  vertical-align: middle;
+  padding: 0 20px;
+  @media (max-width: 767px) {
+    height: 100px;
+	}
+}
+
+.btn_row {
+  display: flex;
+  justify-content: flex-end;
+  @media (max-width: 767px) {
+    margin-top: 10px;
+    justify-content: center;
+	}
+}
+
+.searchBtn {
+	min-height: 30px;
+	padding: 0;
+}

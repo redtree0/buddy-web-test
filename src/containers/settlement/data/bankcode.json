@@ -1,0 +1,117 @@
+[
+        {
+        "label": "은행선택",
+        "value": "select",
+        "code": ""
+        },
+        {
+        "label": "경남은행",
+        "value": "039",
+        "code": "KYNAKR22XXX"
+        },
+        {
+        "label": "광주은행",
+        "value": "034",
+        "code": "KWABKRSE"
+        },
+        {
+        "label": "국민은행",
+        "value": "004",
+        "code": "CZNBKRSE"
+        },
+        {
+        "label": "기업은행",
+        "value": "003",
+        "code": "IBKOKRSE"
+        },
+        {
+        "label": "농협은행",
+        "value": "011",
+        "code": "NACFKRSEXXX"
+        },
+        {
+        "label": "대구은행",
+        "value": "031",
+        "code": "DAEBKR22"
+        },
+        {
+        "label": "부산은행",
+        "value": "032",
+        "code": "PUSBKR2P"
+        },
+        {
+        "label": "산업은행",
+        "value": "002",
+        "code": "KODBKRSE"
+        },
+        {
+        "label": "상호저축은행",
+        "value": "050",
+        "code": "-"
+        },
+        {
+        "label": "새마을금고",
+        "value": "045",
+        "code": "-"
+        },
+        {
+        "label": "수협은행",
+        "value": "007",
+        "code": "NFFCKRSE"
+        },
+        {
+        "label": "씨티은행",
+        "value": "027",
+        "code": "CITIKRSX"
+        },
+        {
+        "label": "신한은행",
+        "value": "088",
+        "code": "SHBKKRSE"
+        },
+        {
+        "label": "신협은행",
+        "value": "048",
+        "code": "-"
+        },
+        {
+        "label": "외환은행",
+        "value": "005",
+        "code": "KEOXKRSE"
+        },
+        {
+        "label": "우리은행",
+        "value": "020",
+        "code": "HVBKKRSEXXX"
+        },
+        {
+        "label": "우체국은행",
+        "value": "071",
+        "code": "SHBKKRSEPO"
+        },
+        {
+        "label": "전북은행",
+        "value": "037",
+        "code": "JEONKRSE"
+        },
+        {
+        "label": "제주은행",
+        "value": "035",
+        "code": "JJBKKR22"
+        },
+        {
+        "label": "하나은행",
+        "value": "081",
+        "code": "HNBNKRSE"
+        },
+        {
+        "label": "SC제일은행",
+        "value": "023",
+        "code": "SCBLKRSE"
+        },
+        {
+        "label": "카카오뱅크",
+        "value": "090",
+        "code": "CITIKRSXKAK"
+        }
+]

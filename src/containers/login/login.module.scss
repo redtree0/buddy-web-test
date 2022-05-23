@@ -1,0 +1,62 @@
+.login_div {
+  height: 100%;
+}
+
+.panel {
+  animation: portal-login 1s forwards 1;
+  animation-delay: 0.6s;
+  transform: translateY(20px);
+  opacity: 0;
+}
+
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px;
+}
+.content_center {
+  justify-content: center;
+}
+
+h2 {
+  text-align: center;
+}
+.login-actions {
+  justify-content: center;
+}
+.login-actions a{
+  width : 100%;
+}
+.login-button {
+  color: white;
+  background-color: #8bc137;
+}
+
+.signup-content {
+  text-align: center;
+}
+
+.div {
+  display: flex;
+  width: 100%
+}
+
+.signup-logo {
+  height: 64px;
+  margin-top: auto;
+  margin-bottom: auto;
+  justify-content: center;
+}
+
+@keyframes portal-login {
+  0% {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}

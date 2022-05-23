@@ -1,0 +1,72 @@
+.txt_center {
+	text-align: center;
+	height: 190px;
+	cursor: pointer;
+	@media (max-width: 600px) {
+		height: auto;
+	}
+}
+.dashboard_div {
+	height: 32px;
+	display: flex;
+	vertical-align: middle;
+
+	span:nth-child(1) {
+		width: 20%;
+		display: inline-block;
+		@media (max-width: 800px) {
+			p {
+				font-size: 0.75rem;
+			}
+		}
+	}
+
+	span:nth-child(2) {
+		width: 50%;
+		display: inline-block;
+		text-align: left;
+		@media (max-width: 800px) {
+			p {
+				font-size: 0.75rem;
+			}
+		}
+	}
+
+	span:nth-child(3) {
+		width: 30%;
+		display: inline-block;
+		@media (max-width: 800px) {
+			p {
+				font-size: 0.75rem;
+			}
+		}
+	}
+
+	p {
+		padding-right: 0px;
+	}
+}
+
+.dashboard_div_sales {
+	height: 40px;
+	vertical-align: middle;
+
+	span {
+		width: 50%;
+		display: inline-block;
+	}
+
+	p {
+		padding-right: 0px;
+	}
+}
+
+.dashboard_typography {
+	height: 40px;
+	vertical-align: middle;
+}
+
+.dashboard_locker {
+	height: 80px;
+	vertical-align: middle;
+}

@@ -1,13 +1,105 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html {
+	text-rendering: optimizeLegibility;
+	-moz-osx-font-smoothing: grayscale;
+	font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
+	overflow: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html,
+body,
+#root {
+	margin: 0;
+	width: 100%;
+	height: 100%;
 }
+
+body {
+	font-family: 'Barlow', sans-serif;
+	overflow: auto;
+}
+
+input[type='color'],
+input[type='date'],
+input[type='datetime'],
+input[type='datetime-local'],
+input[type='email'],
+input[type='month'],
+input[type='number'],
+input[type='password'],
+input[type='search'],
+input[type='tel'],
+input[type='text'],
+input[type='time'],
+input[type='url'],
+input[type='week'],
+select:focus,
+textarea,
+div[role='menuitem'],
+ul[role='listbox'] li {
+	font-size: 16px;
+}
+
+.portal-hide-scrollbars {
+	-ms-overflow-style: none;
+}
+
+.portal-hide-scrollbars::-webkit-scrollbar {
+	width: 0;
+}
+
+.portal-flex {
+	flex: 1 1 auto;
+}
+
+/* Elements Pages */
+.portal-pages__header {
+	flex-direction: row;
+	box-sizing: border-box;
+	display: flex;
+	max-height: 100%;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+	min-height: 500px;
+	background: rgba(0, 0, 0, 0.05);
+}
+
+.portal-pages__header-demo {
+	max-width: 400px;
+	margin-top: 0;
+	margin-bottom: 150px;
+	padding: 0px 48px;
+	display: flex;
+	flex: 1 1 auto;
+	position: relative;
+	justify-content: center;
+}
+
+.portal-pages__content-inner {
+	margin-top: -200px;
+	padding: 16px;
+	box-shadow: 0px -40px 100px -50px rgba(0, 0, 0, 0.3), -20px 0px 40px -50px rgba(0, 0, 0, 0.2), 20px 0px 40px -50px rgba(0, 0, 0, 0.2);
+	opacity: 0;
+	transform: translateY(20px);
+	animation: portal-pages__content-inner 0.3s forwards 1 ease-in-out;
+}
+
+@keyframes portal-pages__content-inner {
+	0% {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+	/* -webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none; */
+}
+
+@import 'custom.css';

@@ -1,0 +1,30 @@
+[
+    {
+        "value": "all",
+        "label": "전체"
+    },
+    {
+        "value": "open",
+        "label": "오픈형"
+    },
+    {
+        "value": "semi",
+        "label": "반폐쇄형"
+    },
+    {
+        "value": "close",
+        "label": "완전폐쇄형"
+    },
+    {
+        "value": "round",
+        "label": "오피스형"
+    },
+    {
+        "value": "sofa",
+        "label": "라운지형"
+    },
+    {
+        "value": "dual",
+        "label": "2인형"
+    }
+]

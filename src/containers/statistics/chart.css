@@ -1,0 +1,132 @@
+/* stats */
+.stats_chart_main {
+  padding: 5%;
+  min-width: 800px;
+}
+.stats_chart_row {
+  height: 60px;
+  vertical-align: middle;
+  padding: 0px 20px;
+}
+.stats_chart_layout {
+  width: 100%;
+  background: white;
+  border: solid 2px #dddddd;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+/* analysis */
+.analysis_chart_row {
+  background: white;
+  border: solid 2px #dddddd;
+  border-radius: 12px;
+}
+.analysis_chart_div {
+  height: 300px;
+}
+.analysis_chart_table {
+  width: 100%;
+  margin-top: 20px;
+  border: solid 1px #dddddd;
+}
+.analysis_chart_td {
+  text-align: right;
+}
+
+/* timephased */
+.time_chart_main {
+  padding: 5%;
+  min-width: 800px;
+}
+.time_chart_div {
+  height: 600px;
+}
+.time_chart_layout {
+  background: white;
+  border: solid 2px #dddddd;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+/* product */
+.product_chart_main {
+  padding: 5%;
+  min-width: 600px;
+}
+.product_chart_div {
+  height: 600px;
+}
+.product_chart_table {
+  width: 100%;
+  margin-top: 20px;
+  border: solid 1px #dddddd;
+  text-align: center;
+}
+.product_chart_row {
+  background: white;
+  border: solid 2px #dddddd;
+  border-radius: 12px;
+  margin: 10px;
+}
+.product_chart_tHeader {
+  background: #c2c2c2;
+  height: 30px;
+}
+.product_chart_tr {
+  border: solid 1px #dddddd;
+  height: 30px;
+}
+.product_chart_amount {
+  padding-right: 20px;
+  text-align: right;
+}
+
+.chart_date_div { height: 60px; vertical-align: middle; padding: 0px 20px; margin: 0; }
+.chart_date_select { display: inline-block; width: 160px; }
+.chart_date_span { width: 30px; display: inline-block; text-align: center; font-size: 30px; font-weight: 400; }
+.chart_date_btn { min-height: 30px; }
+
+@media (max-width: 768px) {
+	.stats_chart_main, .time_chart_main, .product_chart_main {
+    padding: 5%;
+    min-width: 100%;
+  }
+  .stats_chart_layout, .time_chart_layout {
+    overflow: scroll;
+  }
+  .stats_chart_div {
+    width: 800px;
+  }
+  .time_chart_div {
+    width: 600px;
+  }
+  .product_chart_row {
+    margin: 0;
+  }
+  .product_chart_row .Chart, .product_chart_row .Table {
+    padding: 0;
+  }
+  .chart_date_div {
+    padding: 0 !important;
+  }
+  .chart_date_select {
+    width: 120px !important;
+  }
+  .chart_date_select input {
+		width: 120px;
+		font-size: 12px;
+	}
+  .chart_date_span {
+    width: 20px;
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .chart_date_btn {
+    min-width: 50px !important;
+    padding: 0 !important;
+    margin-left: 10px !important;
+  }
+}

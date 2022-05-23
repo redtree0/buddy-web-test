@@ -1,0 +1,26 @@
+[
+	{
+		"value": "auto",
+		"label": "무인"
+	},
+	{
+		"value": "cafe",
+		"label": "스터디카페"
+	},
+	{
+		"value": "reading",
+		"label": "독서실"
+	},
+	{
+		"value": "education",
+		"label": "교육기관"
+	},
+	{
+		"value": "office",
+		"label": "공유오피스"
+	},
+	{
+		"value": "meeting",
+		"label": "모임공간"
+	}
+]
